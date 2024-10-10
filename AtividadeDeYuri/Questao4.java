@@ -8,7 +8,7 @@ public class Questao4 {
         Estado q0 = new Estado("q0");
 
         Set<Estado> estados = new HashSet<>(Collections.singletonList(q0));
-        Set<Estado> estadosFinais = new HashSet<>(); // Sem estados finais
+        Set<Estado> estadosFinais = new HashSet<>(); 
         Estado estadoInicial = q0;
         Set<Character> alfabeto = new HashSet<>(Arrays.asList('0', '1'));
 
